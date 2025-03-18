@@ -1,0 +1,543 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos generales */
+body {
+    background-color: #fff;
+    color: #000;
+}
+
+/* Encabezado */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #ffd900;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* Sección "How Happy Are You?" */
+.happy-section {
+    padding: 80px;
+    background-color: white;
+}
+.hp2{
+height: 500px;
+width: 500px;
+
+}
+.happy-section .content {
+    display: flex;
+    height: 800px;
+    
+    
+}
+
+.happy-section img {
+   
+    border-radius: 20px;
+    margin-right: 100px;
+    
+}
+
+.happy-section .text {
+    width: 70%;
+}
+
+.happy-section h2 {
+    font-size: 70px;
+    font-weight: bold;
+    
+}
+
+.happy-section p {
+    margin: 15px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.yellow {
+    background-color: #ffd900;
+    color: black;
+    
+}
+
+.black {
+    background-color: black;
+    color: white;
+    
+}
+
+/* Sección Amarilla */
+.yellow-section {
+    background-color: #ffd900;
+    position: relative;
+    height: 250px; /* Ajusta esto según el espacio necesario */
+}
+
+/* Cuadro flotante en medio */
+.floating-box {
+    background-color: #f4f4f4;
+    padding: 150px;
+    width: 60%;
+    max-width: 900px;
+    border-radius: 10px;
+    position: absolute;
+    top: 0; /* Lo ajustamos desde la parte superior */
+    left: 50%;
+    transform: translate(-50%, -50%); /* Lo posiciona en el centro y lo sube */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); /* Sombra para el relieve */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.floating-box h3 {
+    color: #ffd900;
+    font-size: 3rem;
+}
+
+.floating-box p {
+    margin: 10px 0;
+}
+
+.floating-box .charts {
+    width: 150px;
+}
+
+.floating-box .charts img {
+    width: 200%;
+}
+
+/* Sección "We Can Help You" */
+.help {
+    background-color: #ffd900;
+    padding: 50px;
+}
+
+.help .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.help .text {
+    width: 50%;
+}
+
+.help img {
+    width: 45%;
+    border-radius: 10px;
+}
+
+.section-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Para centrar verticalmente en la pantalla */
+    background: white;
+    position: relative;
+}
+
+.content-box {
+    display: flex;
+    background: #f5f5f5;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centrar exactamente en la pantalla */
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 0 0 10px;
+}
+
+.text-container {
+    padding: 20px;
+    text-align: left;
+}
+
+.text-container h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+.text-container h2 span {
+    color: #FFCC00;
+}
+
+.text-container p {
+    font-size: 16px;
+    color: #333;
+    margin: 15px 0;
+}
+
+.read-more {
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.chart img {
+    width: 120px;
+    margin-top: 20px;
+}
+
+.section-three {
+    background: black;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.content {
+    max-width: 800px;
+    margin: auto;
+}
+
+h2 {
+    font-size: 24px;
+    color: #FFCC00;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    width: 800%;
+    max-width: px;
+    height: auto;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.read-more {
+    background: #FFCC00;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.section-four {
+    background: white;
+    padding: 50px 10%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.image-container img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.text-container {
+    max-width: 400px;
+}
+
+h2 {
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.read-more {
+    background: #FFCC00;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.section-five {
+    background: #E5E5E5; /* Gris claro */
+    padding: 60px 10%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-container {
+    max-width: 450px;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 16px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.read-more {
+    background: #FFCC00;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.image-container img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.section-six {
+    background: #fff;
+    padding: 60px 10%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-container {
+    background: black;
+    padding: 30px;
+    width: 45%;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.surname-label {
+    margin-left: 20px;
+}
+
+.name-surname {
+    display: flex;
+    justify-content: space-between;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid white;
+    background: black;
+    color: white;
+}
+
+.name-surname input {
+    width: 48%;
+}
+
+textarea {
+    height: 100px;
+}
+
+.form-description {
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.text-container {
+    width: 45%;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 15px;
+}
+
+h2 span {
+    color: #FFCC00; /* Amarillo */
+}
+
+p {
+    font-size: 16px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.subscribe-btn {
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.section-seven {
+    background: #FFCC00; /* Fondo amarillo */
+    text-align: center;
+    padding: 50px 10%;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: black;
+}
+
+p {
+    font-size: 16px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.map-container {
+    width: 80%;
+    max-width: 800px;
+    height: 400px;
+    margin: auto;
+    position: relative;
+   
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.contact-btn {
+    background: black;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.footer {
+    background: black;
+    padding: 50px 10%;
+    color: white;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.logo img {
+    width: 120px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 50px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.column a {
+    color: #FFCC00;
+    text-decoration: none;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.column a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: white;
+    margin: 20px 0;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright {
+    color: #FFCC00;
+}
+
+.social-icons a img {
+    width: 24px;
+    margin-left: 10px;
+    filter: brightness(0) invert(1); /* Para que se vean en amarillo */
+}
+
+
